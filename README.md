@@ -1,13 +1,42 @@
 # Teste de Avaliação Técnica
 
-## Instruções
+## Pré-requisitos
 
-Este repositório contém os testes de automação. Para realizar os testes, siga as instruções abaixo:
+- Node.js instalado ([Download Node.js](https://nodejs.org/))
+- Cypress (instalação via npm)
+- Git
 
-### Front-end
+## Como começar
 
-Se você está interessado em realizar os testes de automação relacionados ao front-end do projeto, por favor, navegue para a branch `front`. Lá você encontrará os arquivos e instruções específicas para executar os testes de front-end.
+1. Faça um Fork deste projeto.
+2. Clone o repositório forkado para o seu ambiente local.
+3. Instale as dependências do Cypress:
 
-### Back-end
+```bash
+npm install cypress --save-dev
+```
 
-Se você está interessado em realizar os testes de automação relacionados ao back-end do projeto, por favor, navegue para a branch `back`. Lá você encontrará os arquivos e instruções específicas para executar os testes de back-end.
+## Caso de Teste
+
+1. Executar a request GET https://reqres.in/api/users?page=2
+2. Validar que o status code é igual a 200
+3. Validar os dados do usuário 12
+
+```json
+   {
+      "id": 12,
+      "email": "rachel.howell@reqres.in",
+      "first_name": "Rachel",
+      "last_name": "Howell",
+      "avatar": "https://reqres.in/img/faces/12-image.jpg"
+    }
+```
+
+## O que será avaliado
+
+* Lógica de programação
+* Organização do código
+* Utilização do git
+* Domínio das ferramentas
+
+Boa sorte!
