@@ -10,7 +10,13 @@
 
 1. Faça um Fork deste projeto.
 2. Clone o repositório forkado para o seu ambiente local.
-3. Instale as dependências do Cypress:
+3. Inicie o npm no seu projeto
+
+```bash
+npm init -y
+```
+
+4. Instale as dependências do Cypress:
 
 ```bash
 npm install cypress --save-dev
